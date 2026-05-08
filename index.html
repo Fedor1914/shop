@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс-лист товаров</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #555;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        tr:hover {
+            background-color: #f1f4f6;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .price {
+            font-weight: bold;
+            color: #27ae60;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 20px auto;
+            }
+            th, td {
+                padding: 10px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Прайс-лист товаров</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="text-center">№</th>
+                <th>Название лота</th>
+                <th class="text-center">Кол-во на складе</th>
+                <th>Цена</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-center">1</td>
+                <td>Ноутбук TechPro 15</td>
+                <td class="text-center">5</td>
+                <td class="price">75 000 </td>
+            </tr>
+            <tr>
+                <td class="text-center">2</td>
+                <td>Беспроводная мышь SilentClick</td>
+                <td class="text-center">24</td>
+                <td class="price">1 200 </td>
+            </tr>
+            <tr>
+                <td class="text-center">3</td>
+                <td>Механическая клавиатура RGB</td>
+                <td class="text-center">12</td>
+                <td class="price">4 500 </td>
+            </tr>
+            <tr>
+                <td class="text-center">4</td>
+                <td>Монитор 27" UltraSharp</td>
+                <td class="text-center">8</td>
+                <td class="price">22 000 </td>
+            </tr>
+            <tr>
+                <td class="text-center">5</td>
+                <td>Внешний SSD 1ТБ</td>
+                <td class="text-center">15</td>
+                <td class="price">8 900 </td>
+            </tr>
+            <tr>
+                <td class="text-center">6</td>
+                <td>Наушники с шумоподавлением</td>
+                <td class="text-center">10</td>
+                <td class="price">12 500 </td>
+            </tr>
+            <tr>
+                <td class="text-center">7</td>
+                <td>Веб-камера Full HD</td>
+                <td class="text-center">20</td>
+                <td class="price">3 800 </td>
+            </tr>
+            <tr>
+                <td class="text-center">8</td>
+                <td>USB-хаб 7-в-1</td>
+                <td class="text-center">30</td>
+                <td class="price">2 100 </td>
+            </tr>
+            <tr>
+                <td class="text-center">9</td>
+                <td>Подставка для ноутбука</td>
+                <td class="text-center">18</td>
+                <td class="price">1 500 </td>
+            </tr>
+            <tr>
+                <td class="text-center">10</td>
+                <td>Сумка для ноутбука 15.6"</td>
+                <td class="text-center">40</td>
+                <td class="price">2 300 </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
